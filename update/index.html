@@ -1,6 +1,12 @@
 <html>
   <head>
     <title>更新日志 | 青竹计算机学会 | QZCF</title>
+    <script>
+      function add()
+      {
+        document.getElementById("result").innerHTML="权限认证不通过，需要：开发组 或 站长团";
+      }
+    </script>
   </head>
   <body>
     <h1>更新日志</h1>
@@ -10,5 +16,6 @@
     <p><b>v0.5.1</b><br>添加了比赛界面</p>
     <p><b>v0.5</b><br>更新了404、403界面</p>
     <p><b>v0.1</b><br>最初版本</p>
+    <p><button onclick="add()" type="button">添加新版本记录</button></p>
   </body>
 </html>
