@@ -2,6 +2,12 @@
 <html>
   <head>
     <title>青竹计算机学会 | QZCF</title>
+    <script>
+      function add()
+      {
+        document.getElementById("result").innerHTML="权限认证不通过，需要：站长团";
+      }
+    </script>
   </head>
   <body>
     <h1>特别鸣谢</h1>
@@ -49,5 +55,12 @@
       <p>宋一：青竹计算机学会C1915分会成员，曾获NOIP2018普及组二等奖<s>，水平不详</s></p>
       <p>详见：<a href="https://qzcf.github.io/achievement">奖项、水平公示</a></p>
     </div>
+    <br>
+    <input type="text" name="name" value="ZZQ">
+    <br>
+    <input type="text" name="describe" value="I AK IOI">
+    <br>
+    <p><button onclick="add()" type="button">添加新成员<button></p>
+    <div id="result"></div>
   </body>
 </html>
