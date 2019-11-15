@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./image/87393.png" sizes="32x32">
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <title>AH IS A GIRL</title>
+    <style>
+        *{
+			color:#191970;
+			transition:all 0.3s ease;
+			text-shadow:0 0 20px #e1ffff;
+		}
+        body
+        {
+            background-color:#66ccff;
+            text-align:center;
+        }
+        header
+        {
+            margin: 2cm 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="https://www.luogu.org/space/show?uid=122461" target="_blank">rui_er</a></h1>
+        <img src="./image/87393.png" alt="CQY AK IOI" style="width: 200px; height: 200px; ">
+	<h2>CQY AK IOI</h2>
+        <h2>他小学就AK了N次IOI，而且每次AK用时只有1秒钟!!</h2>
+        <p>He AKed IOI for <span class="counter">0</span> times.</p>
+        <p>她已经被您膜拜了 <span class="counter">0</span> 次。</p>
+		<button id="mobai" type="button" class="el-button el-button--primary is-plain is-round">点击膜拜</button>
+		<script>
+			var counter = 0;
+			document.getElementById("mobai").onclick = function() {
+				++counter;
+				for(let item of document.getElementsByClassName("counter")) {
+					item.innerText = counter;
+				}
+                if(counter==10)
+                {
+                    alert("CQY:\"来呀，继续膜我呀\"");
+                }
+                if(counter==20)
+                {
+                    alert("CQY:\"我又小又强又可爱\"");
+                }
+                if(counter==50)
+                {
+                    alert("CQY:\"I AK IOI\"");
+                }
+                if(counter==100)
+                {
+                    alert("CQY:\"你现在膜我的次数还没有我AK的次数多哟\"");
+                }
+                if(counter==150)
+                {
+                    alert("CQY:\"加油，快膜我\"");
+                }
+                if(counter==200)
+                {
+                    alert("CQY:\"菜鸡tourist都能过，我肯定能过\"");
+                }
+                if(counter==250)
+                {
+                    alert("CQY:\"我吊打国家集训队\"");
+                }
+                if(counter==300)
+                {
+                    alert("CQY:\"加油，膜够500次就再AK一次IOI\"");
+                }
+		if(counter==500)
+		{
+			alert("CQY:\"你们都是一群渣渣，连一次IOI都AK不了。走了，不陪你们这些渣渣了\"");
+		}
+		}
+		</script>
+    </header>
+    <p>
+	</p>
+</body>
