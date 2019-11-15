@@ -31,45 +31,45 @@
         <p>他已经被您膜拜了 <span class="counter">0</span> 次。</p>
 		<button id="mobai" type="button" class="el-button el-button--primary is-plain is-round">点击膜拜</button>
 		<script>
-			var counter = 0;
+			if(!localStorage.counter) localStorage.counter = 0;
 			document.getElementById("mobai").onclick = function() {
-				++counter;
+				++localStorage.counter;
 				for(let item of document.getElementsByClassName("counter")) {
-					item.innerText = counter;
+					item.innerText = localStorage.counter;
 				}
-                if(counter==10)
+                if(localStorage.counter==10)
                 {
                     alert("CQY:\"来呀，继续膜我呀\"");
                 }
-                if(counter==20)
+                if(localStorage.counter==20)
                 {
                     alert("CQY:\"我又小又强又可爱\"");
                 }
-                if(counter==50)
+                if(localStorage.counter==50)
                 {
                     alert("CQY:\"I AK IOI\"");
                 }
-                if(counter==100)
+                if(localStorage.counter==100)
                 {
                     alert("CQY:\"你现在膜我的次数还没有我AK的次数多哟\"");
                 }
-                if(counter==150)
+                if(localStorage.counter==150)
                 {
                     alert("CQY:\"加油，快膜我\"");
                 }
-                if(counter==200)
+                if(localStorage.counter==200)
                 {
                     alert("CQY:\"菜鸡tourist都能过，我肯定能过\"");
                 }
-                if(counter==250)
+                if(localStorage.counter==250)
                 {
                     alert("CQY:\"我吊打国家集训队\"");
                 }
-                if(counter==300)
+                if(localStorage.counter==300)
                 {
                     alert("CQY:\"加油，膜够500次就再AK一次IOI\"");
                 }
-		if(counter==500)
+		if(localStorage.counter==500)
 		{
 			alert("CQY:\"你们都是一群渣渣，连一次IOI都AK不了。走了，不陪你们这些渣渣了\"");
 		}
