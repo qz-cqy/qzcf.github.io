@@ -55,7 +55,7 @@ div.guide a {
 	text-decoration: none;
 }
 div.guide a.active {
-	background-color: #009393;
+	background-color: #00caca;
 	color: white;
 	font-weight: bold;
 }
