@@ -5,7 +5,7 @@
 }
 body {
 	margin: 0;
-	background-color: #e7eef5;
+	background-color: #00e3e3;
 	font-size: 100%;
 }
 p {
@@ -19,7 +19,7 @@ p {
 /*header*/
 div.header {
 	padding: 20px 100px;
-	background-color: #5993c2;
+	background-color: #009100;
 	color: white;
 	font-family: "楷体",sans-serif;
 	font-size: 2em;
@@ -35,32 +35,32 @@ div.guide ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #aadbf1;
-	font-family: "宋体",sans-serif;
+	background-color: #00db00;
+	font-family: "微软雅黑",sans-serif;
 	font-size: 1.125em;
 	list-style-type: none;
 }
 div.guide li {
 	float: left;
-	border-right: 2px solid #5993c2;
+	border-right: 2px solid #0000e3;
 }
 div.guide a {
 	display: block;
 	width: 90px;
 	padding: 10px 0px;
-	border-top: 1px solid #aadbf1;
+	border-top: 1px solid #00db00;
 	color: darkblue;
 	font-size: 110%;
 	text-align: center;
 	text-decoration: none;
 }
 div.guide a.active {
-	background-color: #5993c2;
+	background-color: #009393;
 	color: white;
 	font-weight: bold;
 }
 div.guide a:hover:not(.active) {
-	background-color: #89c3f2;
+	background-color: #00e3e3;
 	font-weight: bold;
 }
 /*content*/
