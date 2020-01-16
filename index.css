@@ -57,8 +57,8 @@ div.guide li {
 }
 div.guide a {
 	display: block;
-	width: 130px;
-	padding: 5px 10px;
+	width: 150px;
+	padding: 15px 10px;
 	border-bottom: 1px solid #00db00;
 	color: darkblue;
 	font-size: 110%;
