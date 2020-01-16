@@ -27,13 +27,13 @@ div.header {
 }
 /*footer*/
 div.footer {
+	padding: 20px 100px;
 	position: absolute;
 	background-color: black;
 	text-align: center; 
 	color: white;
 	bottom: 0px;
 	height: 70px;
-	line-height: 70px;
 	margin-top: 5px;
 }
 /*guide*/
